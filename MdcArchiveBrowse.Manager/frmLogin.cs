@@ -15,7 +15,6 @@ namespace MdcArchiveBrowse.Manager
 {
     public partial class frmLogin : Form
     {
-        frmLogin loginForm = null;
         static string encryptKey = "abcd";//字符串加密密钥(注意：密钥只能是4位)
         private UserInfo uiLogin;//用户登录信息
 

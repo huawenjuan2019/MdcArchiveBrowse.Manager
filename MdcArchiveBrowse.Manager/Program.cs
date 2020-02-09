@@ -28,9 +28,7 @@ namespace MdcArchiveBrowse.Manager
             }
             else
             {
-
                 MessageBox.Show("登陆失败!");
-
             }
         }
     }
