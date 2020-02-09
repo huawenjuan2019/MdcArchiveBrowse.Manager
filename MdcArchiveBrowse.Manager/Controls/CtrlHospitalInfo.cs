@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MdcArchiveBrowse.Manager
+namespace MdcArchiveBrowse.Manager.Controls
 {
-    public partial class UCHospitalInformation : UserControl
+    public partial class CtrlHospitalInfo : UserControl
     {
-        public UCHospitalInformation()
+        public CtrlHospitalInfo()
         {
             InitializeComponent();
         }

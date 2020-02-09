@@ -1,6 +1,6 @@
 ﻿namespace MdcArchiveBrowse.Manager.Controls
 {
-    partial class ucApplyDept
+    partial class CtrlApplyDept
     {
         /// <summary>
         /// Required designer variable.

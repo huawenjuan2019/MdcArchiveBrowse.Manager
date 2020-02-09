@@ -48,17 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\ucApplyDept.cs">
+    <Compile Include="Controls\CtrlApplyDept.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\ucApplyDept.Designer.cs">
-      <DependentUpon>ucApplyDept.cs</DependentUpon>
+    <Compile Include="Controls\CtrlApplyDept.Designer.cs">
+      <DependentUpon>CtrlApplyDept.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\ucHospitalInformation.cs">
+    <Compile Include="Controls\CtrlHospitalInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\ucHospitalInformation.Designer.cs">
-      <DependentUpon>ucHospitalInformation.cs</DependentUpon>
+    <Compile Include="Controls\CtrlHospitalInfo.Designer.cs">
+      <DependentUpon>CtrlHospitalInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -75,11 +75,11 @@
     <Compile Include="Model\UserInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controls\ucApplyDept.resx">
-      <DependentUpon>ucApplyDept.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\CtrlApplyDept.resx">
+      <DependentUpon>CtrlApplyDept.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\ucHospitalInformation.resx">
-      <DependentUpon>ucHospitalInformation.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\CtrlHospitalInfo.resx">
+      <DependentUpon>CtrlHospitalInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

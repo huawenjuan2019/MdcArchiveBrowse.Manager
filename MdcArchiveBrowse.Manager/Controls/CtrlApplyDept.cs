@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace MdcArchiveBrowse.Manager.Controls
 {
-    public partial class ucApplyDept : UserControl
+    public partial class CtrlApplyDept : UserControl
     {
-        public ucApplyDept()
+        public CtrlApplyDept()
         {
             InitializeComponent();
         }

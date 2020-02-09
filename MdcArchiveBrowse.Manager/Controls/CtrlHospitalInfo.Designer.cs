@@ -1,6 +1,6 @@
-﻿namespace MdcArchiveBrowse.Manager
+﻿namespace MdcArchiveBrowse.Manager.Controls
 {
-    partial class UCHospitalInformation
+    partial class CtrlHospitalInfo
     {
         /// <summary>
         /// Required designer variable.
