@@ -58,7 +58,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(227, 149);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 21);
+            this.textBox1.Size = new System.Drawing.Size(413, 21);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
@@ -67,7 +67,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Location = new System.Drawing.Point(227, 224);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 21);
+            this.textBox2.Size = new System.Drawing.Size(413, 21);
             this.textBox2.TabIndex = 3;
             // 
             // UCHospitalInformation
@@ -79,7 +79,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UCHospitalInformation";
-            this.Size = new System.Drawing.Size(617, 396);
+            this.Size = new System.Drawing.Size(797, 424);
             this.ResumeLayout(false);
             this.PerformLayout();
 

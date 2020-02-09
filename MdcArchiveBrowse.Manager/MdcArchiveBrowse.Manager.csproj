@@ -48,11 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UCHospitalInformation.cs">
+    <Compile Include="Controls\ucApplyDept.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCHospitalInformation.Designer.cs">
-      <DependentUpon>UCHospitalInformation.cs</DependentUpon>
+    <Compile Include="Controls\ucApplyDept.Designer.cs">
+      <DependentUpon>ucApplyDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucHospitalInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucHospitalInformation.Designer.cs">
+      <DependentUpon>ucHospitalInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -69,8 +75,11 @@
     <Compile Include="Model\UserInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UCHospitalInformation.resx">
-      <DependentUpon>UCHospitalInformation.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\ucApplyDept.resx">
+      <DependentUpon>ucApplyDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucHospitalInformation.resx">
+      <DependentUpon>ucHospitalInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

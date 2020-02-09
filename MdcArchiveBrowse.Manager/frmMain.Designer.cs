@@ -30,11 +30,13 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.ucHospitalInformation1 = new MdcArchiveBrowse.Manager.UCHospitalInformation();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ucApplyDept1 = new MdcArchiveBrowse.Manager.Controls.ucApplyDept();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -61,16 +63,6 @@
             this.tabPage1.Text = "医院信息";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(797, 424);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "申请科室";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // ucHospitalInformation1
             // 
             this.ucHospitalInformation1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -80,6 +72,27 @@
             this.ucHospitalInformation1.Name = "ucHospitalInformation1";
             this.ucHospitalInformation1.Size = new System.Drawing.Size(791, 418);
             this.ucHospitalInformation1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.ucApplyDept1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(797, 424);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "申请科室";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // ucApplyDept1
+            // 
+            this.ucApplyDept1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ucApplyDept1.Location = new System.Drawing.Point(0, 0);
+            this.ucApplyDept1.Name = "ucApplyDept1";
+            this.ucApplyDept1.Size = new System.Drawing.Size(797, 424);
+            this.ucApplyDept1.TabIndex = 0;
             // 
             // frmMain
             // 
@@ -92,6 +105,7 @@
             this.Text = "归档浏览控制台";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -103,6 +117,7 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private UCHospitalInformation ucHospitalInformation1;
+        private Controls.ucApplyDept ucApplyDept1;
     }
 }
 
