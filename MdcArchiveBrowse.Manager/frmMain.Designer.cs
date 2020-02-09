@@ -31,7 +31,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.ucHospitalInformation1 = new MdcArchiveBrowse.Manager.UCHospitalInformation();
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -49,6 +52,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.ucHospitalInformation1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -67,15 +71,27 @@
             this.tabPage2.Text = "申请科室";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // ucHospitalInformation1
+            // 
+            this.ucHospitalInformation1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ucHospitalInformation1.Location = new System.Drawing.Point(3, 3);
+            this.ucHospitalInformation1.Name = "ucHospitalInformation1";
+            this.ucHospitalInformation1.Size = new System.Drawing.Size(791, 418);
+            this.ucHospitalInformation1.TabIndex = 0;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "frmMain";
             this.Text = "归档浏览控制台";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -85,6 +101,8 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private UCHospitalInformation ucHospitalInformation1;
     }
 }
 
