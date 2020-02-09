@@ -24,7 +24,7 @@ namespace MdcArchiveBrowse.Manager
 
             if (myLogin.ShowDialog() == DialogResult.OK)
             {
-                Application.Run(new MainForm());//如果登录成功则打开主窗体
+                Application.Run(new frmMain());//如果登录成功则打开主窗体
             }
             else
             {
