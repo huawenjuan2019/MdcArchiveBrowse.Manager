@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace MdcArchiveBrowse.Manager
 {
-    public partial class frmLgoin : Form
+    public partial class MainForm : Form
     {
-        public frmLgoin()
+        public MainForm()
         {
             InitializeComponent();
         }
